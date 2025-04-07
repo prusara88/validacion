@@ -20,7 +20,8 @@ st.title("🔍 Verificador de Lista")
 
 documento = st.text_input("Ingresa tu número de documento:")
 
-if documento:
+# Botón de búsqueda
+if st.button("🔎 Buscar"):
     documento = documento.strip()
     documento = ''.join(filter(str.isdigit, documento))  # Eliminar puntos o caracteres raros
 
