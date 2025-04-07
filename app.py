@@ -46,3 +46,4 @@ if st.button("Buscar"):
         st.success("✅ ¡Sí estás en la lista!")
     else:
         st.error("❌ No estás en la lista.")
+        st.markdown("👉 [Haz clic aquí para inscribirte](https://forms.gle/LuzAiCBWLnKSJwPN7)")
